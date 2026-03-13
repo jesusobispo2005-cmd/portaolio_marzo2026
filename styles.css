@@ -49,3 +49,31 @@ ul li{
         }
     }
 }
+
+.hero{
+    background: linear-gradient( rgba(100,57,6,0.5), rgba(0,0,0,0.5)), url(https://cdn.dribbble.com/userupload/22148904/file/original-56b19720d83b146e748d69554e264aff.jpg?resize=752x&vertical=center)
+    no-repeat;
+    height: 600px;
+    background-size: cover;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    button{
+        border-radius: 10px;
+        border: solid 4px rgb(61, 207, 42);
+        box-shadow: 0px 10px 20px rgba(110, 2, 2, 0.5);
+        cursor: pointer;
+        color: aqua;
+        background-color: rgb(8, 15, 7);
+        &:hover{
+            background-color: rgb(20, 80, 40);
+        }
+        &:active{
+            background-color: rgb(30, 90, 60);
+        }
+    }
+}
