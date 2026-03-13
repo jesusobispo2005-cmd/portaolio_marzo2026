@@ -1,15 +1,15 @@
+/* importaciones */
+@font-face {
+    font-family: 'simpsons';
+    src: url('/Simpsonfont\ DEMO.otf');
+}
+
+
 body{
     background-color: rgb(237, 243, 247);
     margin:0;
     padding:0;
-}
-
-
-.centralizar{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    gap:20px;
+    font-family: 'simpsons';
 }
 
 ul li{
@@ -19,6 +19,29 @@ ul li{
     }
 }
 
+.orientacion{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+
 .logo_header{
     height: 100px;
+}
+
+.header_class{
+    background-color: rgba(17, 8, 102, 0.235);
+
+    a{
+        color: rgb(4, 0, 255);
+
+        &::after{
+            color: rgb(163, 10, 10);
+        }
+        &:hover{
+            color: rgb(8, 109, 8);
+        }
+    }
 }
